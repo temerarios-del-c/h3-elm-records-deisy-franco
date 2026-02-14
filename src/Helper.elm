@@ -1,7 +1,7 @@
 module Helper exposing (..)
 
-import Htmal.Attributes
-import Html
+import Html exposing (Html, div, h1, li, text, ul)
+import Html.Attributes exposing (..)
 
 
 add2 : Int -> Int -> Int
